@@ -24,6 +24,7 @@
 .score-body {
     background: white;
     padding: 20px;
+    height: 35vh;
 }
 
 .score-buttons {
@@ -52,4 +53,18 @@
 
 .disabled {
     color: #ccc;
+}
+
+/* tablet */
+@media screen only (min-width: 500px) {
+    .score-body {
+        height: 23vh;
+    }
+}
+    
+/* mobile */
+@media screen only (min-width: 500px) {
+    .score-body {
+        height: 30vh;
+    }
 }
